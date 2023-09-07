@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelo Sales - Portfólio</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="short icon" href="./imgs/mypixel.webp">
+    <link rel="stylesheet" href="./BOOTSTRAP5.3/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class="corpo">
+    <header class="header container">
+        <div class="w-25 animationHeader">
+            <div class="animation">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://lottie.host/c34504fd-193e-4f2c-9cca-e9873469ed7e/4Lcu5lMfWT.json"
+                    background="transparent" speed="1" style="width: 225px; height: 300px;" loop
+                    autoplay></lottie-player>
+            </div>
+        </div>
+        <div class="w-75 options">
+            <a href="./index.html" class="item">Home</a>
+            <a href="#" class="item" data-bs-toggle="modal" data-bs-target="#sobre">Sobre</a>
+            <a href="#" class="item" data-bs-toggle="modal" data-bs-target="#servicos">Serviços</a>
+            <a href="./Marcelo Sales - CV.pdf" target="_blank" class="item">Currículo</a>
+            <a href="#" class="itemChamada">Fale Comigo</a>
+        </div>
+    </header>
+    <nav class="mobile">
+        <div class="animation">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://lottie.host/c34504fd-193e-4f2c-9cca-e9873469ed7e/4Lcu5lMfWT.json"
+                background="transparent" speed="1" style="width: 225px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+        <button class="modalNav" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+            <i class="bi bi-list"></i>
+        </button>
+    </nav>
+    <div class="w-100 d-flex justify-content-center container">
+        <div class="mainBody">
+            <div class="w-50 pGroup">
+                <p class="p1">Olá, eu sou</p>
+                <p class="p2">Marcelo Sales</p>
+                <p class="p3">Programador Web</p>
+                <p class="p4">HTML, SASS, JavaScript, PHP, React...</p>
+            </div>
+            <div class="w-50 ms-1">
+                <img src="./imgs/imgMainSolo.webp" class="w-75 imgBody">
+            </div>
+            <a href="https://acesse.one/mhspwhatsapp" class="btn1">FALE COMIGO</a>
+            <a href="./Marcelo Sales - CV.pdf" class="btn2">CURRÍCULO</a>
+        </div>
+    </div>
+
+    <div class="sunmoon">
+        <div class="padding">
+            <input type="checkbox" class="checkbox" id="ckb">
+            <label class="label" class="checkbox" for="ckb">
+                <i class="bi bi-brightness-high-fill sun"></i>
+                <i class="bi bi-moon-stars-fill moon"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="row w-100 d-flex justify-content-center align-items-center apresentacao">
+            <div class="col-6">
+                <img src="./imgs/Eu.webp" alt="">
+            </div>
+            <div class="col-6 textoApresentacao">
+                <p class="h1">Um pouco sobre mim<br>
+                <p>Olá, pode me chamar de Marcelo, tenho 18 anos, moro no Ceará, mas sou Natalense, sempre fui muito
+                    disciplinado, estudo programação desde os
+                    15 anos, apaixonado
+                    pela área de TI. Estreando meu primeiro ano como Programador Web profissional, com certeza irei me
+                    esforçar mais que
+                    qualquer um, evoluindo cada vez mais!</p>
+                </p>
+                <div class="w-100 text-end">
+                    <a href="https://acesse.one/mhspwhatsapp" class="btnChamada">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 container text-center squareGroup mt-5">
+        <p class="tedxt-center h3 mb-4">Web Designer</p>
+        <div class="squares">
+            <div class="row d-flex justify-content-center linguages">
+                <p class="square i1"></p>
+                <p class="square i2"></p>
+                <p class="square i3"></p>
+                <p class="square i4"></p>
+                <p class="square i5"></p>
+                <p class="square i6"></p>
+                <div class="row d-flex justify-content-center">
+                    <p class="square i7"></p>
+                    <p class="square i8"></p>
+                    <p class="square i9"></p>
+                    <p class="square i10"></p>
+                    <p class="square" style="background: linear-gradient(0.25turn, #FF9A14, #fc2020);">Design</p>
+                </div>
+            </div>
+            <p class="fw-bold h6">SITES PERSONALIZADOS, RESPONSIVOS E DINÂMICOS</p>
+        </div>
+
+
+
+
+
+
+        <!--MODAIL SOBRE-->
+        <div class="modal fade" id="sobre" tabindex="-1" aria-labelledby="sobre" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modalBg">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="sobre">SOBRE</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esse é o meu site portfólio, feito com HTML, SASS, JavaScript e Bootstrap, ele é totalmente
+                            responsivo funcionado em qualquer tipo de dispositivo, dê uma olhada nos serviços e no meu
+                            currículo para saber mais sobre mim!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Serviços-->
+        <div class="modal fade" id="servicos" tabindex="-1" aria-labelledby="servicos" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content modalBg">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="servicos">SERVIÇOS</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Já pensou em ter seu proprio site totalmente personalizado com a cara do seu produto e ou
+                            empresa, por um valor acessível?</h2>
+                        <div style="width:100%; height: 20px; background-color: #FF9A14; border-radius: 100px;"></div>
+                        <div class="h4 mt-3">Sites seguros, com certificado HTTP, e dominio próprio, com navegação
+                            intuitiva, você ou seu produto será facilmente acessível a todos os que visitarem o site.
+                        </div>
+                        <div class="w-100 text-center">
+                            <a>Consulte válores pelo meu WhatsApp, sem nenhum compromisso!</a>
+                            <a href="https://acesse.one/mhspwhatsapp"
+                                style="text-decoration: none; color: rgba(50, 217, 81, 255); font-weight: bold;">WhatsApp</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://acesse.one/mhspwhatsapp" class="whatsapp">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://lottie.host/3dc5546a-b1c2-4eb0-b177-59350352e626/b2Wvl66wKt.json"
+                background="transparent" speed="1" style="width: 100px; height: 300px;" autoplay></lottie-player>
+        </a>
+
+        <!--Offcanvas-->
+        <div class="offcanvas offcanvas-end offcanvasBg" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvas">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <div class="options">
+                        <a href="./index.html" class="item">Home</a>
+                        <a class="item" data-bs-toggle="modal" data-bs-target="#sobre">Sobre</a>
+                        <a class="item" data-bs-toggle="modal" data-bs-target="#servicos">Serviços</a>
+                        <a href="./Marcelo Sales - CV.pdf" target="_blank" class="item">Currículo</a>
+                        <a href="https://acesse.one/mhspwhatsapp" class="itemChamada">Fale Comigo</a>
+                    </div>
+                    <div class="sunmoon-mobile">
+                        <div class="padding">
+                            <input type="checkbox" class="checkbox" id="ckb-mobile">
+                            <label class="label" class="checkbox" for="ckb-mobile">
+                                <i class="bi bi-brightness-high-fill sun"></i>
+                                <i class="bi bi-moon-stars-fill moon"></i>
+                                <div class="ball"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer border-top container mt-5">
+        <div class="mt-3 d-flex justify-content-between">
+            <div>© 2023 Marcelo Sales - Portfólio<img class="ms-3" src="./imgs/mypixel.webp" width=25px></p>
+            </div>
+            <ul class="col-md-4 justify-content-end d-flex">
+                <a>marcelohspcontato@gmail.com</a>
+            </ul>
+        </div>
+    </footer>
+    <script src="./BOOTSTRAP5.3/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
